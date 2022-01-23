@@ -60,7 +60,7 @@ category_page: '/blog/categories/'
 # Puglins
 mathjax: true # whether support mathjax
 google_analytics_token: '' # leave blank if you don't want google analytics
-disqus_short_name: 'SulimChoi-github-io' # leave blank if you don't want disqus
+disqus_short_name: 'sulimchoi-github-io.disqus.com' # leave blank if you don't want disqus
 
 
 # Use the following plug-ins
