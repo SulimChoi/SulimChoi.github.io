@@ -42,6 +42,7 @@ nav:
     # - { Categories All: '/blog/categories/' }
     - { TIL (Today I Learned): '/blog/categories/#til' }
     - { 알고리즘 문제풀이: '/blog/categories/#알고리즘-문제풀이' }
+    - { 자바의 정석: '/blog/categories/#자바의 정석' }
     - { etc: '/blog/categories/#etc' }
     # - { Tags: '/blog/tags/' }
   About:
