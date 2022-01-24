@@ -1,3 +1,12 @@
+---
+layout: post
+title: Chapter 10. 날짜와 시간 & 형식화
+category: 자바의 정석
+permalink: /til/:year/:month/:day/:title/
+tags: [자바의 정석, JAVA]
+comments: true
+---
+
 # 1. 날짜와 시간
 
 ### 1.1 Calendar와 Date
@@ -142,7 +151,7 @@ String resu;t = df.format(today);
 
 
 
-# 3. java.time 패키짖
+# 3. java.time 패키지
 
 |       패키지       |                             설명                             |
 | :----------------: | :----------------------------------------------------------: |
