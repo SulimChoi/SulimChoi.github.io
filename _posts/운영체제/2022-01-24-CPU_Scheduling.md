@@ -1,6 +1,6 @@
 ---
 layout: post
-title: [Chapter 5] CPU Scheduling 
+title: Chapter 5. CPU Scheduling 
 category: 운영체제
 permalink: /til/:year/:month/:day/:title/
 tags: [운영체제, CS]
