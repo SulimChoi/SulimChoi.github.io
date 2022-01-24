@@ -11,14 +11,14 @@ comments: true
 
 # 1. CPU and IO Bursts in Program Execution
 ---
-![](/home/ubuntu/SulimChoi.github.io/assets/post-img/os/programexecution.png)
+![](/assets/post-img/os/programexecution.png)
 - CPU burst: CPU만 연속적으로 사용하면서 명령어를 실행하는 단계
 - IO burst: IO를 실행하는 단계
 - 프로그램이 실행되면 CPU burst와 IO burst를 번갈아가며 실행
   - 프로그램의 종류에 따라 CPU burst와 IO burst의 빈도와 길이가 달라짐
 
 ### CPU burst Time의 분포
-![](/home/ubuntu/SulimChoi.github.io/assets/post-img/os/cpubursttime.png)
+![](/assets/post-img/os/cpubursttime.png)
 - IO bound job process: 중간에 IO 작업이 많아 CPU를 짧게 쓰기 때문에 CPU burst의 빈도가 높음
   - CPU를 잡고 계산하는 시간보다 IO에 많은 시간이 필요한 job
   - many short CPU bursts
@@ -29,11 +29,7 @@ comments: true
   - Interactive job에게 적절한 response 제공 요망
   - CPU와 IO 장치 등 시스템 자원을 효율적으로 사용
   
-
-
-
 # 2. CPU Schedular & Dispatcher
-
 ---
 **CPU Scheduler**
 - Ready 상태의 프로세스 중에서 이번에 CPU를 줄 프로세스를 고름
@@ -50,9 +46,7 @@ comments: true
 > 3. Blocked -> Ready (ex. IO 완료 후 인터럽트): 강제로 빼앗음(**preemptive**, 선점형)
 > 4. Terminate: 강제로 빼앗지 않고 자진 반납(**nonpreemptive**, 비선점형)
 
-
 # 3. Scheduling Algorithms
-
 ---
 ### Scheduling Criteria (성능 척도)
 **CPU utilization (이용률)**
@@ -76,7 +70,7 @@ comments: true
 - ready queue에 들어와서 처음으로 CPU를 얻기까지 걸리는 시간
 
 ### 1. FCFS(First-Come First-Served)
-![](/home/ubuntu/SulimChoi.github.io/assets/post-img/os/fcfs.png)
+![](/assets/post-img/os/fcfs.png)
 - 먼저 온 순서대로 처리. 효율적이지는 않음
 - 비선점형 스케줄링
 - 프로세스 도착 순서를 바꿔보면
@@ -98,8 +92,9 @@ comments: true
 - 새로운 프로세스가 도착하는 시점에 언제든지 스케줄링이 이루어짐
 
 **예시**
-![](/home/ubuntu/SulimChoi.github.io/assets/post-img/os/sjf1.png)
-![](/home/ubuntu/SulimChoi.github.io/assets/post-img/os/sjf2.png)
+
+![](/assets/post-img/os/sjf1.png)
+![](/assets/post-img/os/sjf2.png)
 
 **문제점**
 - **starvation**(기아 현상): CPU 사용 시간이 긴 프로세스는 CPU를 할당받는데 너무 오래 걸리거나 아예 실행되지 않을 수 있는 현상
@@ -132,15 +127,14 @@ comments: true
 - 장점: **응답 시간(response time)이 빠름**
 
 **예시**
-![](/home/ubuntu/SulimChoi.github.io/assets/post-img/os/rr.png)
+
+![](/assets/post-img/os/rr.png)
 - SJF보다 average turnaround time이 길지만 response time은 더 짧음
 
 
-
 # 4. Multilevel Queue
-
 ---
-![](/home/ubuntu/SulimChoi.github.io/assets/post-img/os/multilevelqueue.png)
+![](/assets/post-img/os/multilevelqueue.png)
 - 줄마다 우선순위가 존재
 - 위에있는 줄일수록 높은 우선순위를 가짐
 - 출신에 따라 우선순위가 달라짐
@@ -161,7 +155,7 @@ comments: true
   - Time slice: 각 큐에 CPU time을 적절한 비율로 할당
 
 ### 2. Multilevel Feedback Queue
-![](/home/ubuntu/SulimChoi.github.io/assets/post-img/os/multilevelfeedbackqueue.png)
+![](/assets/post-img/os/multilevelfeedbackqueue.png)
 - 본인 출생 극복 가능 (**프로세스가 다른 큐로 이동 가능**)
 - aging을 이와 같은 방식으로 구현 가능
 - CPU burst time이 짧은 프로세스에게 우선순위를 많이 주는 방식
@@ -196,10 +190,7 @@ comments: true
 **Asymmetric multiprocessing**
 - 하나의 프로세서가 시스템 데이터의 접근과 공유를 책임지고 나머지 프로세서는 거기에 따름
 
-
-
 ### 2. Real-Time Scheduling
-
 - deadline은 보장해줘야 함
 
 **Hard real-time systems**
@@ -208,10 +199,7 @@ comments: true
 **Soft real-time computing**
 - 일반 프로세스에 비해 높은 priority를 갖도록 해야 함
 
-
-
 ### 3. Thread Scheduling
-
 **Local Scheduling**
 - User level thread(운영체제가 모르는 thread)의 경우 사용자 수준의 thread library에 의해 어떤 thread를 스케줄할지 결정
 - 운영체제가 아닌 사용자 프로세스가 직접 어느 thread에게 cpu를 줄지 경정
@@ -219,22 +207,14 @@ comments: true
 **Global Scheduling**
 - Kernel level thread의 경우 커널의 단기 스케줄러가 어떤 thread를 스케줄할지 결정
 
-
-
-6. Algorithm Evaluation
-===
-
+# 6. Algorithm Evaluation
 ---
-
-
-
-![](/home/ubuntu/SulimChoi.github.io/assets/post-img/os/algorithmevaluation.png)
+![](/assets/post-img/os/algorithmevaluation.png)
 - server: CPU
 - arrival rate: 프로세스 도착률
 - service rate: 프로세스 처리률 (CPU가 단위시간당 처리하는 프로세스의 비율)
 
 **Queueing models**
-
 - 확률 분포로 주어지는 arrival rate와 service rate 등을 통해 각 종 performance index 값을 계산
 
 **Implementation(구현) & Measurement(성능 측정)**
@@ -245,8 +225,5 @@ comments: true
   - trace: simulation 프로그램에 input으로 들어갈 데이터
   - 만들 수도 있고 실제 프로그램을 돌리면서 뽑아낼 수도 있음
 
-
-
 > **Chapter 5 끝!!!**
->
 > 게시물에 사용한 사진은 강의 내용을 캡쳐한 것입니다.
