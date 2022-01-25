@@ -106,7 +106,7 @@ comments: true
 
 ### Algorithm 1
 
-![algorithm1](/home/ubuntu/SulimChoi.github.io/assets/post-img/os/algorithm1.png)
+![algorithm1](/assets/post-img/os/algorithm1.png)
 
 - `turn`: critical section에 들어갈 차례를 나타내주는 변수 (0인 경우 0번 프로세스, 1일 경우 1번 프로세스)
 - while문을 통해 내 차례가 아닌 경우에는 대기하고 turn이 0으로 변경되면 critical secetion에 들어가고, 나오면 상대방의 차례로 변경해줌
