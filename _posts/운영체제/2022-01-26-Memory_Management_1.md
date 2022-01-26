@@ -212,7 +212,7 @@ comments: true
 
 - **Hole (가용 메모리 공간)**
 
-  ![hole](/home/ubuntu/SulimChoi.github.io/assets/post-img/os/hole.png)
+  ![hole](/assets/post-img/os/hole.png)
 
   - 다양한 크기의 hole들이 메모리 여러 곳에 흩어져 있음
   - 프로세스가 도착하면 수용 가능한 hole을 할당
