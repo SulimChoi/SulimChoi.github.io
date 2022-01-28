@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Chapter 12. 지네릭스, 열거형, 애너테이션_1
+title: Chapter 12. 지네릭스, 열거형, 애너테이션
 category: 자바의 정석
 permalink: /til/:year/:month/:day/:title/
 tags: [자바의 정석, JAVA]
