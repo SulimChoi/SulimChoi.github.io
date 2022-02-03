@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Chapter 14. 람다와 스트림_1
+title: Chapter 14. 람다와 스트림_1(람다)
 category: 자바의 정석
 permalink: /til/:year/:month/:day/:title/
 tags: [자바의 정석, JAVA]
