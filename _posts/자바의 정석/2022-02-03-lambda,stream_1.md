@@ -257,7 +257,7 @@ int big = f.max(5, 3)	// 익명 객체의 메서드 호출
 ```java
 // Function
 default <V> Function<T,V> andThen(Function<? super R,? extends V> after)
-default <V> Function<V,R> andThen(Function<? super V,? extends T> before)
+default <V> Function<V,R> compose(Function<? super V,? extends T> before)
 static <T> Function<T, T> identity()
     
 // Predicate
