@@ -634,3 +634,9 @@ Stream<R> map(Function<? super T, ? extends R> mapper)
 - characteristtics()는 컬렉터가 수행하는 작업의 속성에 대한 정보를 제공하기 위한 것
 - 3가지 속성 중 해당하는 것을 Set에 담아 반환하도록 구현
   - 아무런 속성도 지정하고 싶지 않다면 비어있는 Set을 반환
+
+
+
+
+
+> **Chapter 14 끝!!!**
