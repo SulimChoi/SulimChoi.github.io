@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Chapter 1. 자바 8, 9, 10, 11 : 무슨 일이 일어나고 있는가?
+title: Chapter 1. 무슨 일이 일어나고 있는가?
 category: 모던 자바 인 액션
 permalink: /til/:year/:month/:day/:title/
 tags: [모던 자바 인 액션, JAVA]
