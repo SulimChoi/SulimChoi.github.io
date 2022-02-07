@@ -43,7 +43,8 @@ nav:
     - { TIL (Today I Learned): '/blog/categories/#til' }
     - { 알고리즘 문제풀이: '/blog/categories/#알고리즘-문제풀이' }
     - { 자바의 정석: '/blog/categories/#자바의 정석' }
-    - { 컴퓨터 구조: '/blog/categories/#컴퓨터 구조'}
+    - { 모던 자바 인 액션: '/blog/categories/#모던 자바 인 액션'}
+    - { 스프링 인 액션 (제5판): '/blog/categories/#스프링 인 액션 (제5판)'}
     - { 운영체제: '/blog/categories/#운영체제'}
     - { etc: '/blog/categories/#etc' }
     # - { Tags: '/blog/tags/' }
