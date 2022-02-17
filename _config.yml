@@ -67,3 +67,4 @@ disqus_short_name: 'sulimchoi-github-io.disqus.com' # leave blank if you don't w
 # Use the following plug-ins
 gems:
   - jekyll-paginate
+  - jemoji
