@@ -7,7 +7,7 @@ url: https://sulimchoi.github.io/
 logo: '/public/logo.png'
 
 # Site configurations
-gems:
+plugins:
   - jekyll-paginate
 markdown: kramdown
 kramdown:
@@ -65,6 +65,6 @@ disqus_short_name: 'sulimchoi-github-io.disqus.com' # leave blank if you don't w
 
 
 # Use the following plug-ins
-gems:
+plugins:
   - jekyll-paginate
   - jemoji
