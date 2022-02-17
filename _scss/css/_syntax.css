@@ -325,3 +325,7 @@
 }
 
 /* Literal.Number.Integer.Long */
+.emoji {
+  display: inline;
+  border-radius: 0px;
+}
